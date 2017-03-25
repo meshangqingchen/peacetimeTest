@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74C4FB5B1E02C3A9007BC549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB5A1E02C3A9007BC549 /* main.m */; };
+		74C4FB5E1E02C3A9007BC549 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB5D1E02C3A9007BC549 /* AppDelegate.m */; };
+		74C4FB611E02C3A9007BC549 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB601E02C3A9007BC549 /* ViewController.m */; };
+		74C4FB641E02C3A9007BC549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FB621E02C3A9007BC549 /* Main.storyboard */; };
+		74C4FB661E02C3A9007BC549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FB651E02C3A9007BC549 /* Assets.xcassets */; };
+		74C4FB691E02C3A9007BC549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FB671E02C3A9007BC549 /* LaunchScreen.storyboard */; };
+		74C4FB741E02C3A9007BC549 /* __________________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB731E02C3A9007BC549 /* __________________Tests.m */; };
+		74C4FB7F1E02C3A9007BC549 /* __________________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB7E1E02C3A9007BC549 /* __________________UITests.m */; };
+		74C4FBA91E02C3C0007BC549 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 74C4FB8D1E02C3C0007BC549 /* LICENSE */; };
+		74C4FBAA1E02C3C0007BC549 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB901E02C3C0007BC549 /* MASCompositeConstraint.m */; };
+		74C4FBAB1E02C3C0007BC549 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB931E02C3C0007BC549 /* MASConstraint.m */; };
+		74C4FBAC1E02C3C0007BC549 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB951E02C3C0007BC549 /* MASConstraintMaker.m */; };
+		74C4FBAD1E02C3C0007BC549 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB971E02C3C0007BC549 /* MASLayoutConstraint.m */; };
+		74C4FBAE1E02C3C0007BC549 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB9B1E02C3C0007BC549 /* MASViewAttribute.m */; };
+		74C4FBAF1E02C3C0007BC549 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB9D1E02C3C0007BC549 /* MASViewConstraint.m */; };
+		74C4FBB01E02C3C0007BC549 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FB9F1E02C3C0007BC549 /* NSArray+MASAdditions.m */; };
+		74C4FBB11E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FBA21E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		74C4FBB21E02C3C0007BC549 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FBA41E02C3C0007BC549 /* View+MASAdditions.m */; };
+		74C4FBB31E02C3C0007BC549 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FBA71E02C3C0007BC549 /* ViewController+MASAdditions.m */; };
+		74C4FBB41E02C3C0007BC549 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 74C4FBA81E02C3C0007BC549 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74C4FB701E02C3A9007BC549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C4FB4E1E02C3A9007BC549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C4FB551E02C3A9007BC549;
+			remoteInfo = "子视图动画变高使改变父视图高动画改变";
+		};
+		74C4FB7B1E02C3A9007BC549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C4FB4E1E02C3A9007BC549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C4FB551E02C3A9007BC549;
+			remoteInfo = "子视图动画变高使改变父视图高动画改变";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74C4FB561E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "子视图动画变高使改变父视图高动画改变.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C4FB5A1E02C3A9007BC549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74C4FB5C1E02C3A9007BC549 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74C4FB5D1E02C3A9007BC549 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74C4FB5F1E02C3A9007BC549 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74C4FB601E02C3A9007BC549 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74C4FB631E02C3A9007BC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74C4FB651E02C3A9007BC549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C4FB681E02C3A9007BC549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74C4FB6A1E02C3A9007BC549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C4FB6F1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "子视图动画变高使改变父视图高动画改变Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C4FB731E02C3A9007BC549 /* __________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________Tests.m"; sourceTree = "<group>"; };
+		74C4FB751E02C3A9007BC549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C4FB7A1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "子视图动画变高使改变父视图高动画改变UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C4FB7E1E02C3A9007BC549 /* __________________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________________UITests.m"; sourceTree = "<group>"; };
+		74C4FB801E02C3A9007BC549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C4FB8D1E02C3C0007BC549 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		74C4FB8F1E02C3C0007BC549 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		74C4FB901E02C3C0007BC549 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		74C4FB911E02C3C0007BC549 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		74C4FB921E02C3C0007BC549 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		74C4FB931E02C3C0007BC549 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		74C4FB941E02C3C0007BC549 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		74C4FB951E02C3C0007BC549 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		74C4FB961E02C3C0007BC549 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		74C4FB971E02C3C0007BC549 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		74C4FB981E02C3C0007BC549 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		74C4FB991E02C3C0007BC549 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		74C4FB9A1E02C3C0007BC549 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		74C4FB9B1E02C3C0007BC549 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		74C4FB9C1E02C3C0007BC549 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		74C4FB9D1E02C3C0007BC549 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		74C4FB9E1E02C3C0007BC549 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		74C4FB9F1E02C3C0007BC549 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		74C4FBA01E02C3C0007BC549 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		74C4FBA11E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		74C4FBA21E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		74C4FBA31E02C3C0007BC549 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		74C4FBA41E02C3C0007BC549 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		74C4FBA51E02C3C0007BC549 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		74C4FBA61E02C3C0007BC549 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		74C4FBA71E02C3C0007BC549 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		74C4FBA81E02C3C0007BC549 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C4FB531E02C3A9007BC549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4FB6C1E02C3A9007BC549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4FB771E02C3A9007BC549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74C4FB4D1E02C3A9007BC549 = {
+			isa = PBXGroup;
+			children = (
+				74C4FB581E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变 */,
+				74C4FB721E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests */,
+				74C4FB7D1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests */,
+				74C4FB571E02C3A9007BC549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C4FB571E02C3A9007BC549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB561E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变.app */,
+				74C4FB6F1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests.xctest */,
+				74C4FB7A1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C4FB581E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变 */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB8C1E02C3C0007BC549 /* Masonry */,
+				74C4FB5C1E02C3A9007BC549 /* AppDelegate.h */,
+				74C4FB5D1E02C3A9007BC549 /* AppDelegate.m */,
+				74C4FB5F1E02C3A9007BC549 /* ViewController.h */,
+				74C4FB601E02C3A9007BC549 /* ViewController.m */,
+				74C4FB621E02C3A9007BC549 /* Main.storyboard */,
+				74C4FB651E02C3A9007BC549 /* Assets.xcassets */,
+				74C4FB671E02C3A9007BC549 /* LaunchScreen.storyboard */,
+				74C4FB6A1E02C3A9007BC549 /* Info.plist */,
+				74C4FB591E02C3A9007BC549 /* Supporting Files */,
+			);
+			path = "子视图动画变高使改变父视图高动画改变";
+			sourceTree = "<group>";
+		};
+		74C4FB591E02C3A9007BC549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB5A1E02C3A9007BC549 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74C4FB721E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB731E02C3A9007BC549 /* __________________Tests.m */,
+				74C4FB751E02C3A9007BC549 /* Info.plist */,
+			);
+			path = "子视图动画变高使改变父视图高动画改变Tests";
+			sourceTree = "<group>";
+		};
+		74C4FB7D1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB7E1E02C3A9007BC549 /* __________________UITests.m */,
+				74C4FB801E02C3A9007BC549 /* Info.plist */,
+			);
+			path = "子视图动画变高使改变父视图高动画改变UITests";
+			sourceTree = "<group>";
+		};
+		74C4FB8C1E02C3C0007BC549 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB8D1E02C3C0007BC549 /* LICENSE */,
+				74C4FB8E1E02C3C0007BC549 /* Masonry */,
+				74C4FBA81E02C3C0007BC549 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		74C4FB8E1E02C3C0007BC549 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				74C4FB8F1E02C3C0007BC549 /* MASCompositeConstraint.h */,
+				74C4FB901E02C3C0007BC549 /* MASCompositeConstraint.m */,
+				74C4FB911E02C3C0007BC549 /* MASConstraint+Private.h */,
+				74C4FB921E02C3C0007BC549 /* MASConstraint.h */,
+				74C4FB931E02C3C0007BC549 /* MASConstraint.m */,
+				74C4FB941E02C3C0007BC549 /* MASConstraintMaker.h */,
+				74C4FB951E02C3C0007BC549 /* MASConstraintMaker.m */,
+				74C4FB961E02C3C0007BC549 /* MASLayoutConstraint.h */,
+				74C4FB971E02C3C0007BC549 /* MASLayoutConstraint.m */,
+				74C4FB981E02C3C0007BC549 /* Masonry.h */,
+				74C4FB991E02C3C0007BC549 /* MASUtilities.h */,
+				74C4FB9A1E02C3C0007BC549 /* MASViewAttribute.h */,
+				74C4FB9B1E02C3C0007BC549 /* MASViewAttribute.m */,
+				74C4FB9C1E02C3C0007BC549 /* MASViewConstraint.h */,
+				74C4FB9D1E02C3C0007BC549 /* MASViewConstraint.m */,
+				74C4FB9E1E02C3C0007BC549 /* NSArray+MASAdditions.h */,
+				74C4FB9F1E02C3C0007BC549 /* NSArray+MASAdditions.m */,
+				74C4FBA01E02C3C0007BC549 /* NSArray+MASShorthandAdditions.h */,
+				74C4FBA11E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				74C4FBA21E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				74C4FBA31E02C3C0007BC549 /* View+MASAdditions.h */,
+				74C4FBA41E02C3C0007BC549 /* View+MASAdditions.m */,
+				74C4FBA51E02C3C0007BC549 /* View+MASShorthandAdditions.h */,
+				74C4FBA61E02C3C0007BC549 /* ViewController+MASAdditions.h */,
+				74C4FBA71E02C3C0007BC549 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C4FB551E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C4FB831E02C3A9007BC549 /* Build configuration list for PBXNativeTarget "子视图动画变高使改变父视图高动画改变" */;
+			buildPhases = (
+				74C4FB521E02C3A9007BC549 /* Sources */,
+				74C4FB531E02C3A9007BC549 /* Frameworks */,
+				74C4FB541E02C3A9007BC549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "子视图动画变高使改变父视图高动画改变";
+			productName = "子视图动画变高使改变父视图高动画改变";
+			productReference = 74C4FB561E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74C4FB6E1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C4FB861E02C3A9007BC549 /* Build configuration list for PBXNativeTarget "子视图动画变高使改变父视图高动画改变Tests" */;
+			buildPhases = (
+				74C4FB6B1E02C3A9007BC549 /* Sources */,
+				74C4FB6C1E02C3A9007BC549 /* Frameworks */,
+				74C4FB6D1E02C3A9007BC549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C4FB711E02C3A9007BC549 /* PBXTargetDependency */,
+			);
+			name = "子视图动画变高使改变父视图高动画改变Tests";
+			productName = "子视图动画变高使改变父视图高动画改变Tests";
+			productReference = 74C4FB6F1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74C4FB791E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C4FB891E02C3A9007BC549 /* Build configuration list for PBXNativeTarget "子视图动画变高使改变父视图高动画改变UITests" */;
+			buildPhases = (
+				74C4FB761E02C3A9007BC549 /* Sources */,
+				74C4FB771E02C3A9007BC549 /* Frameworks */,
+				74C4FB781E02C3A9007BC549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C4FB7C1E02C3A9007BC549 /* PBXTargetDependency */,
+			);
+			name = "子视图动画变高使改变父视图高动画改变UITests";
+			productName = "子视图动画变高使改变父视图高动画改变UITests";
+			productReference = 74C4FB7A1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C4FB4E1E02C3A9007BC549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = 3D;
+				TargetAttributes = {
+					74C4FB551E02C3A9007BC549 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					74C4FB6E1E02C3A9007BC549 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74C4FB551E02C3A9007BC549;
+					};
+					74C4FB791E02C3A9007BC549 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74C4FB551E02C3A9007BC549;
+					};
+				};
+			};
+			buildConfigurationList = 74C4FB511E02C3A9007BC549 /* Build configuration list for PBXProject "子视图动画变高使改变父视图高动画改变" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C4FB4D1E02C3A9007BC549;
+			productRefGroup = 74C4FB571E02C3A9007BC549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C4FB551E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变 */,
+				74C4FB6E1E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变Tests */,
+				74C4FB791E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C4FB541E02C3A9007BC549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4FB691E02C3A9007BC549 /* LaunchScreen.storyboard in Resources */,
+				74C4FB661E02C3A9007BC549 /* Assets.xcassets in Resources */,
+				74C4FBA91E02C3C0007BC549 /* LICENSE in Resources */,
+				74C4FB641E02C3A9007BC549 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4FB6D1E02C3A9007BC549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4FB781E02C3A9007BC549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C4FB521E02C3A9007BC549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4FBB11E02C3C0007BC549 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				74C4FBAF1E02C3C0007BC549 /* MASViewConstraint.m in Sources */,
+				74C4FBAA1E02C3C0007BC549 /* MASCompositeConstraint.m in Sources */,
+				74C4FBB01E02C3C0007BC549 /* NSArray+MASAdditions.m in Sources */,
+				74C4FB611E02C3A9007BC549 /* ViewController.m in Sources */,
+				74C4FB5E1E02C3A9007BC549 /* AppDelegate.m in Sources */,
+				74C4FBAD1E02C3C0007BC549 /* MASLayoutConstraint.m in Sources */,
+				74C4FB5B1E02C3A9007BC549 /* main.m in Sources */,
+				74C4FBB31E02C3C0007BC549 /* ViewController+MASAdditions.m in Sources */,
+				74C4FBB21E02C3C0007BC549 /* View+MASAdditions.m in Sources */,
+				74C4FBB41E02C3C0007BC549 /* README.md in Sources */,
+				74C4FBAE1E02C3C0007BC549 /* MASViewAttribute.m in Sources */,
+				74C4FBAB1E02C3C0007BC549 /* MASConstraint.m in Sources */,
+				74C4FBAC1E02C3C0007BC549 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4FB6B1E02C3A9007BC549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4FB741E02C3A9007BC549 /* __________________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C4FB761E02C3A9007BC549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4FB7F1E02C3A9007BC549 /* __________________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74C4FB711E02C3A9007BC549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C4FB551E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变 */;
+			targetProxy = 74C4FB701E02C3A9007BC549 /* PBXContainerItemProxy */;
+		};
+		74C4FB7C1E02C3A9007BC549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C4FB551E02C3A9007BC549 /* 子视图动画变高使改变父视图高动画改变 */;
+			targetProxy = 74C4FB7B1E02C3A9007BC549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74C4FB621E02C3A9007BC549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C4FB631E02C3A9007BC549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74C4FB671E02C3A9007BC549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C4FB681E02C3A9007BC549 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74C4FB811E02C3A9007BC549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74C4FB821E02C3A9007BC549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C4FB841E02C3A9007BC549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "子视图动画变高使改变父视图高动画改变/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lcc.------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74C4FB851E02C3A9007BC549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "子视图动画变高使改变父视图高动画改变/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lcc.------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74C4FB871E02C3A9007BC549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "子视图动画变高使改变父视图高动画改变Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lcc.------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/子视图动画变高使改变父视图高动画改变.app/子视图动画变高使改变父视图高动画改变";
+			};
+			name = Debug;
+		};
+		74C4FB881E02C3A9007BC549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "子视图动画变高使改变父视图高动画改变Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lcc.------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/子视图动画变高使改变父视图高动画改变.app/子视图动画变高使改变父视图高动画改变";
+			};
+			name = Release;
+		};
+		74C4FB8A1E02C3A9007BC549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "子视图动画变高使改变父视图高动画改变UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lcc.------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "子视图动画变高使改变父视图高动画改变";
+			};
+			name = Debug;
+		};
+		74C4FB8B1E02C3A9007BC549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "子视图动画变高使改变父视图高动画改变UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lcc.------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "子视图动画变高使改变父视图高动画改变";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C4FB511E02C3A9007BC549 /* Build configuration list for PBXProject "子视图动画变高使改变父视图高动画改变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4FB811E02C3A9007BC549 /* Debug */,
+				74C4FB821E02C3A9007BC549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C4FB831E02C3A9007BC549 /* Build configuration list for PBXNativeTarget "子视图动画变高使改变父视图高动画改变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4FB841E02C3A9007BC549 /* Debug */,
+				74C4FB851E02C3A9007BC549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74C4FB861E02C3A9007BC549 /* Build configuration list for PBXNativeTarget "子视图动画变高使改变父视图高动画改变Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4FB871E02C3A9007BC549 /* Debug */,
+				74C4FB881E02C3A9007BC549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74C4FB891E02C3A9007BC549 /* Build configuration list for PBXNativeTarget "子视图动画变高使改变父视图高动画改变UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4FB8A1E02C3A9007BC549 /* Debug */,
+				74C4FB8B1E02C3A9007BC549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C4FB4E1E02C3A9007BC549 /* Project object */;
+}

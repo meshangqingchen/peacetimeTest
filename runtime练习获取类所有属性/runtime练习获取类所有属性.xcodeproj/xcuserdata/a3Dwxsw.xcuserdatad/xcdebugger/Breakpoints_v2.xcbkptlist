@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/UIViewController+Swizzle.m"
+            timestampString = "503073956.055606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/UIViewController+Swizzle.m"
+            timestampString = "503073956.055606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "swizzleAllViewController()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/UIViewController+Swizzle.m"
+            timestampString = "503073695.394014"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "-customViewWillAppear:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/UIViewController+Swizzle.m"
+            timestampString = "503073835.951817"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-customViewWillAppear:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/ObjcRuntime.m"
+            timestampString = "503078819.038134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "Swizzle()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/ObjcRuntime.m"
+            timestampString = "503078820.367689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "Swizzle()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503135100.229215"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "+load"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSMutableArray(Swizzling) load]"
+                  moduleName = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a3Dwxsw/Desktop/%E7%BB%83%E4%B9%A0/runtime%E7%BB%83%E4%B9%A0%E8%8E%B7%E5%8F%96%E7%B1%BB%E6%89%80%E6%9C%89%E5%B1%9E%E6%80%A7/runtime%E7%BB%83%E4%B9%A0%E8%8E%B7%E5%8F%96%E7%B1%BB%E6%89%80%E6%9C%89%E5%B1%9E%E6%80%A7/NSMutableArray+Swizzling.m"
+                  timestampString = "503138329.972648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33+[NSMutableArray(Swizzling) load]_block_invoke"
+                  moduleName = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a3Dwxsw/Desktop/%E7%BB%83%E4%B9%A0/runtime%E7%BB%83%E4%B9%A0%E8%8E%B7%E5%8F%96%E7%B1%BB%E6%89%80%E6%9C%89%E5%B1%9E%E6%80%A7/runtime%E7%BB%83%E4%B9%A0%E8%8E%B7%E5%8F%96%E7%B1%BB%E6%89%80%E6%9C%89%E5%B1%9E%E6%80%A7/NSMutableArray+Swizzling.m"
+                  timestampString = "503138329.974636"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136021.71409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136021.71409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136021.71409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136021.71409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136021.71409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136021.71409"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSMutableArray+Swizzling.m"
+            timestampString = "503136013.74498"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/NSObject+Swizzling.m"
+            timestampString = "503136807.667214"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "+swizzleSelector:withSwizzledSelector:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "runtime&#x7ec3;&#x4e60;&#x83b7;&#x53d6;&#x7c7b;&#x6240;&#x6709;&#x5c5e;&#x6027;/person+Swizzling.m"
+            timestampString = "503137701.267978"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "+load"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

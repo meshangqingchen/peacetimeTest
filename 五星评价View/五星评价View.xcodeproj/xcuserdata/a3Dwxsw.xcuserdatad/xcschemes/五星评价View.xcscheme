@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0800"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "747BF1B51E279623000137E5"
+               BuildableName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.app"
+               BlueprintName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View"
+               ReferencedContainer = "container:&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "747BF1CE1E279623000137E5"
+               BuildableName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;ViewTests.xctest"
+               BlueprintName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;ViewTests"
+               ReferencedContainer = "container:&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "747BF1D91E279623000137E5"
+               BuildableName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;ViewUITests.xctest"
+               BlueprintName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;ViewUITests"
+               ReferencedContainer = "container:&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747BF1B51E279623000137E5"
+            BuildableName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.app"
+            BlueprintName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View"
+            ReferencedContainer = "container:&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747BF1B51E279623000137E5"
+            BuildableName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.app"
+            BlueprintName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View"
+            ReferencedContainer = "container:&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747BF1B51E279623000137E5"
+            BuildableName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.app"
+            BlueprintName = "&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View"
+            ReferencedContainer = "container:&#x4e94;&#x661f;&#x8bc4;&#x4ef7;View.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

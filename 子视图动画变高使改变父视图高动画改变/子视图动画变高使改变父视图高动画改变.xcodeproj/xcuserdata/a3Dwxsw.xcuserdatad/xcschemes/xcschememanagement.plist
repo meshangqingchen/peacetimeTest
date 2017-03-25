@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>子视图动画变高使改变父视图高动画改变.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>74C4FB551E02C3A9007BC549</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>74C4FB6E1E02C3A9007BC549</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>74C4FB791E02C3A9007BC549</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

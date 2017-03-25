@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '播放器aaa' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for 播放器aaa
+
+
+  pod 'ZFPlayer'
+
+  target '播放器aaaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '播放器aaaUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
